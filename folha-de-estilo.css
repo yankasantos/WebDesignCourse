@@ -109,3 +109,8 @@ li{
 .img-amarela{
     width: 39.25rem;
 }
+.footer-azul{
+    background-color: #000000;
+    height: 6rem;
+    display: block;
+}
