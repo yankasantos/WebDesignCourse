@@ -69,7 +69,7 @@ li{
     display: inline-block;
 }
 .image-destaque{
-    width: 91rem;
+    width: 100%;
     position: inherit;
 }
 .bar-roxa{
@@ -105,31 +105,97 @@ li{
     display: inline;
     margin-left: 50rem;
     bottom: 17rem;
+    z-index: 0;
 }
 .img-amarela{
-    width: 39.25rem;
+    width: 36.95rem;
+    margin-top: 2.79rem;
+    height: 21.65rem;
+    position: relative;
+    z-index: 1;
+}
+.fotter-config{
+    position: absolute;
+    margin-top: 8.8rem;
+    width: 100%;
+    background-color: #000;
+    height: 25%;
+    z-index: 0;
 }
 .footer-azul{
-   /* position: absolute;
+    border-right: 3px solid #ffffff !important;
+    width: 30%;
+    height: 80%;
+    position: relative;
     display: block;
-    background-color: #000000;
-    width: 100%;
-    height: 10rem;*/
-    width: 100%;
-    height: 10rem;
-    background-color: #000000;
+    z-index: 1;
 }
-.box-whatEver-red{
+.box-whatEver-red {
     /*position: absolute;
     top: 65.79em;
     background-color: #FF1110;
     !* margin-left: 25rem; *!
     width: 100%;*/
     position: absolute;
-    top: 65.79em;
+    top: 65.65em;
     background-color: #FF1110;
+    width: 100%;
+    height: 54%;
+    z-index: 0;
+    color: #fff;
 }
 .video-turma{
-    left: 30rem;
     position: relative;
+    margin-left: 2rem;
+    margin-top: 0rem;
+    z-index: 1;
+    display: inline-block;
+    bottom: 14rem;
+}
+.title-video-description{
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 10rem;
+}
+
+.video-description{
+    position: relative;
+    text-align: justify;
+    display: inline-block;
+    width: 35%;
+    /* margin-left: 22rem; */
+    margin-top: 7rem;
+    left: 52rem;
+    color: #fff;
+}
+.conatact-us{
+    color: #fff;
+    text-align: left;
+    margin-left: 8rem;
+    padding-top: 1rem;
+}
+.btn-slack{
+    margin-left: 2rem;
+    width: 18rem;
+    height: 2.5rem;
+    display: inline-block;
+    position: relative;
+    background-color: #2ab27b;
+    border: 1px solid #2ab27b;
+    color: #fff;
+    bottom: 0.25rem;
+    border-radius: 3rem;
+    font-size: 21px;
+    font-family: Slack-Lato,appleLogo,sans-serif;
+}
+.btn-slack > a{
+    color: #fff;
+    /* text-align: center; */
+    /* margin-top: 3rem; */
+    float: right;
+    position: relative;
+    padding-right: 1rem;
+    padding-top: 0.34em;
+    text-decoration: none;
 }
